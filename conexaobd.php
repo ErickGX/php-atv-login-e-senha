@@ -13,7 +13,7 @@ if($conexao->connect_errno){
     echo "Erro ao conectar ao banco de dados: (" .$conexao->connect_errno . ") " . $conexao->connect_error; 
 
 }else{
-    echo "conexao  bem sucessida";
+    //echo "conexao  bem sucessida";
     
 }
 

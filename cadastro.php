@@ -16,7 +16,8 @@
  VALUES ($cpf,'$nome','$senha','$email')";
 
 
- if(mysqli_query($conexao, $sql))
+ if(mysqli_query($conexao, $sql))///Ta errado
+ 
 
  if(mysqli_insert_id($conexao)){
     header("Location: index.html");
